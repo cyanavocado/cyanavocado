@@ -274,7 +274,7 @@
 
   <!-- From Columbus... -->
   <g transform="translate(10, 48)" class="msg-2">
-    <rect width="400" height="66.1302" rx="18.0355" class="bubble" />
+    <rect width="410" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I live in Detroit, Michigan where we experience</text>
     <text x="15" y="50">all the seasons in a day <tspan class="emoji">☀️🌦️🍂☃️</tspan></text>
   </g>
