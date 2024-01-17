@@ -276,7 +276,7 @@
   <g transform="translate(10, 48)" class="msg-2">
     <rect width="439" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I live in Detroit, Michigan where it’s supposed to be</text>
-    <text x="15" y="50">15° F (-9° C) and <tspan class="emoji">🥶</tspan> today.</text>
+    <text x="15" y="50">5° F and <tspan class="emoji">🥶</tspan> today.</text>
   </g>
 
   <!-- typing 3 -->
@@ -299,7 +299,7 @@
 
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
-    <rect width="439" height="66.1302" rx="18.0355" class="bubble" />
+    <rect width="439" height="66.1302" rx="19.5" class="bubble" />
     <text x="15" y="27">I’ve pursuing my bachelor's degree in Robotics Engineering</text>
     <text x="15" y="50">at the University of Michigan-Dearborn for about 4 years now.</text>
   </g>
@@ -326,7 +326,7 @@
   <g transform="translate(10, 192)" class="msg-4">
     <rect width="513" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">
-      You can find me on Twitter at
+      You can find my personal website at
       <a xlink:href="https://bio.site/derekservin">bio.site/derekservin</a>
     </text>
   </g>
