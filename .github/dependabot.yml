@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    groups:
+      astro:
+        patterns:
+          - "@astrojs/*"
+          - "astro"
+      eslint:
+        patterns:
+          - "@typescript-eslint/*"
+          - "eslint-*"
+          - "eslint"
+      prettier:
+        patterns:
+          - "prettier-plugin-*"
+          - "prettier"
