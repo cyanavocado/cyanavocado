@@ -157,7 +157,7 @@
 
     @media (prefers-color-scheme: dark) {
       .bubble {
-        fill: #223F42;
+        fill: #034047;
       }
       text {
         fill: #CEDFDF;
