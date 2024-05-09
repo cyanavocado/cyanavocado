@@ -65,7 +65,7 @@
     <!-- Animation TEXT BOXES -->
     <g>
     <g id="textbox1">
-      <rect x="145" y="33" width="132" height="25" opacity="0">
+      <rect x="145" y="32" width="160" height="25" opacity="0">
       <animate
       attributeName="rx"
       values="0;15;0"
@@ -80,7 +80,7 @@
     </g>
 
     <g id="textbox2">
-        <rect x="145" y="65" width="142" height="22" opacity="0">
+        <rect x="145" y="65" width="480" height="22" opacity="0">
         <animate
         attributeName="rx"
         values="0;15;0"
@@ -95,7 +95,7 @@
     </g>
 
     <g id="textbox3">
-        <rect x="145" y="95" width="350" height="22" opacity="0">
+        <rect x="145" y="95" width="332" height="22" opacity="0">
         <animate
         attributeName="rx"
         values="0;15;0"
@@ -110,7 +110,7 @@
     </g>
 
     <g id="textbox4">
-        <rect x="145" y="125" width="415" height="22" opacity="0">
+        <rect x="145" y="125" width="504" height="22" opacity="0">
         <animate
         attributeName="rx"
         values="0;15;0"
@@ -125,7 +125,7 @@
       </g>
   
       <g id="textbox5">
-          <rect x="145" y="154" width="415" height="22" opacity="0">
+          <rect x="145" y="154" width="490" height="22" opacity="0">
           <animate
           attributeName="rx"
           values="0;15;0"
@@ -140,7 +140,7 @@
       </g>
   
       <g id="textbox6">
-          <rect x="145" y="185" width="172" height="22" opacity="0">
+          <rect x="145" y="185" width="200" height="22" opacity="0">
           <animate
           attributeName="rx"
           values="0;15;0"
@@ -155,7 +155,7 @@
       </g>
 
       <g id="textbox7">
-        <rect x="145" y="215" width="140" height="22" opacity="0">
+        <rect x="145" y="215" width="160" height="22" opacity="0">
         <animate
         attributeName="rx"
         values="0;15;0"
