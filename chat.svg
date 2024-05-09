@@ -685,13 +685,13 @@
   <animate attributeName="opacity" to="0.3" begin="9s" dur="0.5s" fill="freeze" xlink:href="#textbox7" />
 
 
-  <animate attributeName="opacity" to="0" begin="3.5s" dur="0.5s" fill="freeze" xlink:href="#textbox1" />
-  <animate attributeName="opacity" to="0" begin="4.5s" dur="0.5s" fill="freeze" xlink:href="#textbox2" />
-  <animate attributeName="opacity" to="0" begin="5.5s" dur="0.5s" fill="freeze" xlink:href="#textbox3" />
-  <animate attributeName="opacity" to="0" begin="6.5s" dur="0.5s" fill="freeze" xlink:href="#textbox4" />
-  <animate attributeName="opacity" to="0" begin="7.5s" dur="0.5s" fill="freeze" xlink:href="#textbox5" />
-  <animate attributeName="opacity" to="0" begin="8.5s" dur="0.5s" fill="freeze" xlink:href="#textbox6" />
-  <animate attributeName="opacity" to="0" begin="9.5s" dur="0.5s" fill="freeze" xlink:href="#textbox7" />
+  <animate attributeName="opacity" to="0.1" begin="3.5s" dur="0.5s" fill="freeze" xlink:href="#textbox1" />
+  <animate attributeName="opacity" to="0.1" begin="4.5s" dur="0.5s" fill="freeze" xlink:href="#textbox2" />
+  <animate attributeName="opacity" to="0.1" begin="5.5s" dur="0.5s" fill="freeze" xlink:href="#textbox3" />
+  <animate attributeName="opacity" to="0.1" begin="6.5s" dur="0.5s" fill="freeze" xlink:href="#textbox4" />
+  <animate attributeName="opacity" to="0.1" begin="7.5s" dur="0.5s" fill="freeze" xlink:href="#textbox5" />
+  <animate attributeName="opacity" to="0.1" begin="8.5s" dur="0.5s" fill="freeze" xlink:href="#textbox6" />
+  <animate attributeName="opacity" to="0.1" begin="9.5s" dur="0.5s" fill="freeze" xlink:href="#textbox7" />
 
 <!-- Animation for Opacity -->
 <animate attributeName="opacity" to="0" begin="0s" dur="0.1s" fill="freeze" xlink:href="#claw" />
