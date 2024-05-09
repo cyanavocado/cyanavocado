@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+<body>
     <svg width="700" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g id="whole">
     <!-- Base -->
@@ -712,7 +712,32 @@
 
 
 </svg>
+</div>
 
-    <script type="module" src="/main.js"></script>
-  </body>
+  <script>
+    // Function to detect user's preference for dark mode or light mode
+    function detectColorScheme() {
+      const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      return isDarkMode ? 'dark' : 'light';
+    }
+
+    // Function to load SVG based on color scheme
+    function loadSVG() {
+      const colorScheme = detectColorScheme();
+      const svgContainer = document.getElementById('svg-container');
+
+      // Insert SVG based on color scheme
+      if (colorScheme === 'dark') {
+        // Replace 'dark.svg' with the path to your dark mode SVG file
+        svgContainer.innerHTML = '<svg width="700" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="whole"><!-- Dark mode SVG content --></g></svg>';
+      } else {
+        // Replace 'light.svg' with the path to your light mode SVG file
+        svgContainer.innerHTML = '<svg width="700" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="whole"><!-- Light mode SVG content --></g></svg>';
+      }
+    }
+
+    // Call the function to load SVG when the page loads
+    loadSVG();
+  </script>
+</body>
 </html>
